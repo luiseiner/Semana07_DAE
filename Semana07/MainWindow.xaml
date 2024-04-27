@@ -1,0 +1,21 @@
+﻿<Window x:Class="Semana07.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana07"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+
+
+        <DataGrid x:Name="dgPeople"  Margin="27,78,217,40"/>
+        <Button Content="Buscar" Click="Button_buscar" HorizontalAlignment="Left" Margin="650,184,0,0" VerticalAlignment="Top" Height="52" Width="106"/>
+        <Button Content="Listar" Click="Button_Click" HorizontalAlignment="Left" Margin="243,28,0,0" VerticalAlignment="Top" Height="26" Width="176"/>
+        <TextBox HorizontalAlignment="Left" Margin="643,113,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" x:Name="Nombre"/>
+
+
+
+    </Grid>
+</Window>
